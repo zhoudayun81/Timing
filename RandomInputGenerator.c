@@ -5,7 +5,7 @@
 
 int main(int argc, char* argv[])
 {
-	if(argc < 5)
+	if(argc != 5)
 	{
 		fprintf(stderr, "Usage: <y> <n> <loop> <number of keys> \n");
 	}
